@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap 4 Example</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="e_food.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <a class="navbar-brand text-white" href="#">e-<h5>Food</h5></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto ">
+                <li class="nav-item active">
+                    <a class="nav-link text-white" href="e_food.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Steps</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Review</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white fa fa-map-marker" aria-hidden="true" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Choose your location
+              </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="Andhari.html">Andhari</a>
+                        <a class="dropdown-item" href="#">Bandra</a>
+                        <a class="dropdown-item" href="#">Gutti guri</a>
+
+
+                    </div>
+                </li>
+
+
+            </ul>
+            <ul class=" d-flex">
+                <li class="nav-item">
+                    <a class="nav-link text-white mr-2" href="#">Sign Up</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+    <section class="container-fluid signup">
+
+        <div class="row">
+            <div class="col-8 offset-2">
+                <form action="" class="border container form1" id="form">
+                    <h2 class="text-center m-3 text-white">Register</h2>
+                    <div class="feild_input">
+                        <label for="fname"> First Name</label>
+                        <input type="text" placeholder="Enter frist name" id="fname" autocomplete="off">
+                    </div>
+                    <div class="feild_input">
+                        <label for="lname"> Last Name</label>
+                        <input type="text" placeholder="Enter last name" id="lname" autocomplete="off">
+                    </div>
+                    <div class="feild_input">
+                        <label for="Username"> Username</label>
+                        <input type="text" placeholder="Enter username" id="username" autocomplete="off">
+                    </div>
+                    <div class="feild_input">
+                        <label for="email"> Email </label>
+                        <input type="email" placeholder="Enter email address" id="email" autocomplete="off">
+                    </div>
+                    <div class="feild_input">
+                        <label for="date" autocomplete="off"> DOB</label>
+                        <input type="date" id="dob">
+                    </div>
+
+                    <div class="feild_input">
+                        <label for="password"> Password</label>
+                        <input type="text" placeholder="Enter Password" id="password" autocomplete="off">
+                    </div>
+                    <div class="feild_input">
+                        <label for=""></label>
+                        <input type="submit" class="bg-primary" value="Submit">
+                    </div>
+
+
+                </form>
+
+
+            </div>
+        </div>
+
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
